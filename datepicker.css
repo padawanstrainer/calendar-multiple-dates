@@ -1,0 +1,66 @@
+.datepicker{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: none;
+  border-collapse: collapse;
+  user-select: none;
+}
+
+.datepicker td, 
+.datepicker th{
+  border: 1px solid #AAA;
+  padding: 4px 8px;
+  text-align: center;
+} 
+
+.datepicker tr:first-child th{
+  padding: 0 8px;
+}
+
+.datepicker td{
+  cursor: pointer;
+}
+
+.datepicker td:hover{
+  background-color: lightyellow;
+}
+
+.datepicker td.active{
+  background-color: #C9D6CE;
+}
+
+.datepicker td.disabled{
+  background: #003366;
+  color: #e6f2ff;
+  cursor: default;
+}
+
+.datepicker th{
+  background:  #315876;
+  border-color: #1A3B55;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  cursor: default;
+}
+
+.datepicker td.prev-month,
+.datepicker td.next-month{
+  background: #eee;
+  color: silver;
+}
+
+
+.datepicker td.prev-month:hover,
+.datepicker td.next-month:hover{
+  background: #ddd;
+}
+
+.datepicker th a{
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 4px;
+}
+
+.datepicker th a:hover{
+  color: #A5D6FC;
+}

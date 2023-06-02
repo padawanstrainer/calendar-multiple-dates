@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DatePicker varios dias</title>
+  <link rel="stylesheet" href="datepicker.css">
+  <style>
+    form div{
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+  <form method="post" action="calendar.php">
+    <h1>Reserva online</h1>
+    <div><input type="text" name="nombre" placeholder="Su nombre" required autocomplete="off" /></div>
+    <div><input type="email" name="correo" placeholder="Su email" required autocomplete="off"  /></div>
+
+    <span>SELECCIONE SUS FECHAS</span>
+    
+    <div id="falopa"></div>
+
+    <button type="submit">Reservar</button>
+  </form>
+  <script src="dom.js"></script>
+  <script src="datepicker.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
